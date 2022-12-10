@@ -1,1 +1,96 @@
+if statement.
+if-else statement.
+if-elif-else ladder.
+switch case
 
+if statment
+
+if Statement is used for decision-making operations. It contains a body of code which runs only when the condition given in the if statement is true. If the condition is false, then the optional else statement runs which contains some code for the else condition.
+if expression
+ Statement
+else 
+ Statement
+eg: def main():
+x,y=2,8
+
+if (x<y):
+
+st="x is less than y"
+print (st)
+
+if __name__=="__main__":
+main()
+
+The “else condition” is usually used when you have to judge one statement on the basis of other. If one condition goes wrong, then there should be another condition that should justify the statement or logic.
+
+def main():
+	x,y =8,4
+	
+	if(x < y):
+		st= "x is less than y"
+	else:
+		st= "x is greater than y"
+	print (st)
+	
+if __name__ == "__main__":
+	main()
+  
+  using “elif” condition, you are telling the program to print out the third condition or possibility when the other condition goes wrong or incorrect.
+  
+  def main():
+	x,y =8,8
+	
+	if(x < y):
+		st= "x is less than y"
+	
+	elif (x == y):
+		st= "x is same as y"
+	
+	else:
+		st="x is greater than y"
+	print(st)
+	
+if __name__ == "__main__":
+	main()
+  
+  A switch statement is a multiway branch statement that compares the value of a variable to the values specified in case statements.
+
+Python language doesn’t have a switch statement.
+
+function(argument){
+    switch(argument) {
+        case 0:
+            return "This is Case Zero";
+        case 1:
+            return " This is Case One";
+        case 2:
+            return " This is Case Two ";
+        default:
+            return "nothing";
+    };
+};
+
+def main():
+	x,y =2,8
+	
+	if(x < y):
+		st= "x is less than y"
+	print st
+	
+if __name__ == "__main__":
+	main()
+  
+  When "else condition" does not work
+  
+  def main():
+	x,y =8,8
+	
+	if(x < y):
+		st= "x is less than y"
+	else:
+		st= "x is greater than y"
+	print st
+	
+if __name__ == "__main__":
+	main()
+  
